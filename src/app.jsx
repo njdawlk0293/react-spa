@@ -13,18 +13,18 @@ function App() {
           <img src={ReactLogo} className="logo" alt="React logo" />
           <nav>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/react-spa/">Home</Link></li>
+              <li><Link to="/react-spa/about">About</Link></li>
+              <li><Link to="/react-spa/contact">Contact</Link></li>
             </ul>
           </nav>
         </header>
 
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/react-spa/" element={<Home />} />
+          <Route path="/react-spa/about" element={<About />} />
+          <Route path="/react-spa/contact" element={<Contact />} />
         </Routes>
       </Router>
     </>
